@@ -1,0 +1,22 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "module": false
+            }
+        ]
+    ],
+    "plugins": [
+        "babel-plugin-syntax-dynamic-import",
+        "transform-vue-jsx",
+        [
+            "transform-runtime",
+            {
+                "polyfill": false,
+                "regenerator": true
+            }
+        ],
+        "transform-object-rest-spread"
+    ]
+}
